@@ -1,0 +1,26 @@
+{
+  "name": "ClionaJoyceHoldingPage",
+  "version": "0.0.0",
+  "description": "An on brand holding page with basic contact details to act as a placeholder whilst the full site gets designed and developed",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-sass": "^0.18.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heedfull/ClionaJoyceHoldingPage.git"
+  },
+  "author": "Edwin Goddard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heedfull/ClionaJoyceHoldingPage/issues"
+  },
+  "homepage": "https://github.com/heedfull/ClionaJoyceHoldingPage"
+}

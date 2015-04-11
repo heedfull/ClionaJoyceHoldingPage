@@ -1,53 +1,68 @@
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *, *:before, *:after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   /*background-color: black;*/
   /*color: white;*/
-  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif; }
+  font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
 
 .content {
   width: 100%;
   text-align: center;
-  padding: 0 10%; }
+  padding:0 10%;
+  
+}
 
-@media (min-width: 50em) {
+
+@media (min-width: 50em){
   .logo {
-    max-width: 400px; } }
+  max-width: 400px;    
+  }
+}
 
 .box {
   border: 2px solid white;
   border-radius: 20px;
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 28px; }
+  max-width:500px;
+  margin:40px auto;
+  padding: 28px;
+}
 
 img {
-  position: relative;
+  position:relative;
   max-width: 100%;
   /*margin: 0 auto;*/
   margin-top: 5%;
-  /*max-width: 500px;*/ }
+  /*max-width: 500px;*/
+}
 
-#mc_embed_signup {
+#mc_embed_signup{
   /*background:#fff; */
-  clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
-  /*text-align: left;*/ }
+  clear:left; 
+  font:14px Helvetica,Arial,sans-serif;
+  /*text-align: left;*/
+}
 
-.indicates-required {
-  font-size: 12px; }
+.indicates-required{
+  font-size: 12px;
+}
 
-.email {
+.email{
   width: 300px;
   font-size: 18px;
   border-radius: 10px;
   line-height: 2em;
   text-align: center;
-  max-width: 100%; }
+  max-width: 100%;
+}
+
+
 
 .button {
   border: none;
@@ -68,7 +83,8 @@ img {
   position: relative;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .button {
   background: #fff;
@@ -76,7 +92,8 @@ img {
   box-shadow: 0 6px #ccc;
   -webkit-transition: none;
   -moz-transition: none;
-  transition: none; }
+  transition: none;
+}
 
 .button:after {
   content: '';
@@ -84,18 +101,23 @@ img {
   z-index: -1;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .button {
-  border-radius: 20px; }
+  border-radius: 20px;
+}
 
 .button:hover {
   box-shadow: 0 4px #ccc;
-  top: 2px; }
+  top: 2px;
+}
 
 .button:active {
   box-shadow: 0 0 #ab3c3c;
-  top: 6px; }
+  top: 6px;
+}
+
 
 /*
 .button {
