@@ -14,6 +14,9 @@ body {
   text-align: center;
   padding: 0 10%; }
 
+h1 {
+  color: #15331A; }
+
 @media (min-width: 50em) {
   .logo {
     max-width: 400px; } }

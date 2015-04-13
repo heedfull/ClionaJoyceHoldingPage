@@ -1,3 +1,6 @@
+@import "_variables";
+
+
 html {
   box-sizing: border-box;
 }
@@ -16,7 +19,11 @@ body {
   width: 100%;
   text-align: center;
   padding:0 10%;
-  
+
+}
+
+h1{
+  color: $darkgreen;
 }
 
 
