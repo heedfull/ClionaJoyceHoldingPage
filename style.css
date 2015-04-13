@@ -14,12 +14,20 @@ body {
   text-align: center;
   padding: 0 10%; }
 
+.tagline {
+  color: #6C4C1E; }
+
 h1 {
   color: #15331A; }
 
+h2, h3 {
+  color: #307F3E; }
+
 @media (min-width: 50em) {
   .logo {
-    max-width: 400px; } }
+    max-width: 400px;
+    margin: 0 auto;
+    display: block; } }
 
 .box {
   border: 2px solid white;
@@ -31,9 +39,8 @@ h1 {
 img {
   position: relative;
   max-width: 100%;
-  /*margin: 0 auto;*/
-  margin-top: 5%;
-  /*max-width: 500px;*/ }
+  margin: 0 auto;
+  margin-top: 5%; }
 
 #mc_embed_signup {
   /*background:#fff; */
