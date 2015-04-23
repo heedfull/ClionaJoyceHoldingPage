@@ -1,5 +1,5 @@
 @import "_variables";
-
+@import "_normalize";
 
 html {
   box-sizing: border-box;
@@ -24,14 +24,24 @@ body {
 
 .tagline {
   color: $brown;
+  // font-size: 1.5em;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 h1{
+  font-family: 'Quicksand', sans-serif;
   color: $darkgreen;
+  font-size: 4em;
+  margin-bottom: 0.25em
 }
 
 h2,h3{
   color: $green;
+  margin-top: 0;
 }
 
 @media (min-width: 50em){
@@ -78,20 +88,20 @@ img {
 }
 
 
-
+/*
 .button {
   border: none;
   font-family: inherit;
   font-size: inherit;
-  /*color: inherit;*/
-  /*background: none;*/
+  // color: inherit;
+  // background: none;
   cursor: pointer;
   padding: 25px 0;
   display: inline-block;
   margin: 15px auto;
   width: 300px;
   max-width: 100%;
-  /*text-transform: uppercase;*/
+  // text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
   outline: none;
@@ -133,8 +143,6 @@ img {
   top: 6px;
 }
 
-
-/*
 .button {
     font-family: sans-serif;
     font-size: 1em;
